@@ -317,9 +317,7 @@ def main(filename):
                 newcentreback = Centreback(name, standing_tackle, sliding_tackle, pace, defending, physical, marking, short_pass, reaction, inter)
                 collection.add_to_collection(newcentreback)
 
-    top_5_strikers = collection.top_striker()
-    for striker in top_5_strikers:
-        print(striker)
+
 ################################################################################################################################################################################################
 
 main("players_20.csv")
